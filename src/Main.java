@@ -10,6 +10,7 @@ public class Main {
         double alfa;
         System.out.print("Lutfen yaricapi 'r' giriniz: ");
         r = input.nextByte();
+        System.out.print("Lutfen daire dilim acisini 'alfa' giriniz: ");
         alfa = input.nextDouble();
 
         cevre = 2 * Math.PI * r;
@@ -20,6 +21,6 @@ public class Main {
 
         System.out.println("Yaricapini girdiginiz dairenin alani: " + alan + " m2'dir.");
         System.out.println("Yaricapini girdiginiz dairenin cevresi: " + cevre + " m'dir.");
-        System.out.println("Yaricapini ve ALFA açisini girdiginiz dairenin diliminin: " + daireDilimiAlani + " m2'dir.");
+        System.out.println("Yaricapini ve ALFA acisini girdiginiz dairenin diliminin: " + daireDilimiAlani + " m2'dir.");
     }
 }
